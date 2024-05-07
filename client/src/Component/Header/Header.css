@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  min-height: 100vh;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+a {
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 60px;
+  padding: 0 20px;
+  background-color: #3364f5;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.logo a,
+.nav_links a {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  align-items: center;
+  color: white;
+}
+
+.nav_links a {
+  font-size: 1rem;
+}
+
+.nav_links a:hover {
+  text-decoration: underline;
+}
+
+.nav_links {
+  display: flex;
+  list-style: none;
+  margin-top: 5px;
+}
+
+.header {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border: 1px solid #dde1e7;
+  background-color: #ecf0f3;
+  border-radius: 5px;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+}
+
+.home,
+.contact {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 8px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.login-button {
+  position: relative;
+  font-size: 0.8em;
+  font-weight: 200px;
+  padding: 0.7em 1.4em;
+  background: #b5179e;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+.login-button:hover {
+  background-color: #4cc9f0;
+}
+/* Responsive Media Queries */
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: auto;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .logo h1 {
+    font-size: 1.5em;
+  }
+
+  .nav_links {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .nav_links a {
+    padding: 8px 0;
+  }
+
+  .home,
+  .about,
+  .contact {
+    font-size: 14px;
+  }
+
+  .login-button {
+    font-size: 0.7em;
+    margin-top: 10px;
+    padding: 0.5em 1em;
+  }
+}

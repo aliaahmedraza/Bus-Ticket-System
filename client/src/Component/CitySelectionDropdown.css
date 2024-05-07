@@ -1,0 +1,146 @@
+/* CitySelectionExample.css */
+.section {
+  height: auto;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+.cont {
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to top, #7203bb 0%, #3364f5 100%);
+  text-align: center;
+  margin-top: 3px;
+}
+
+.header1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.header-group {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-item {
+  margin-bottom: 5px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.label {
+  margin-right: 5px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.select-box,
+.date-picker {
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000000;
+  cursor: pointer;
+}
+
+.search-button1 {
+  position: relative;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  background: #4cc9f0;
+  text-decoration: none;
+  margin-bottom: 0.7rem;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  box-shadow: 0.3em 0.3em 0.3em rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+  width: 120px;
+  cursor: pointer;
+}
+.date-picker {
+  width: 150px;
+  border: 1px solid #ccc;
+}
+.bus-list {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bus-list h2 {
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  margin-left: 100px;
+}
+/* Button Styles */
+.book-now-button {
+  position: relative;
+  font-size: 1em;
+  font-weight: 400px;
+  padding: 0.7em 1.4em;
+  background: #b5179e;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.book-now-button:hover {
+  background-color: #4cc9f0;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.bus-routes-list {
+  background-color: #3364f5;
+  padding: 40px;
+
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.bus-routes-list li {
+  list-style: none;
+  color: white;
+  display: flex;
+}
+.bus-routes-list span {
+  padding: 5rem;
+}
+.bus-route-item .route {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.bus-route-item .departure-time {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.bus-route-item .fare {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
